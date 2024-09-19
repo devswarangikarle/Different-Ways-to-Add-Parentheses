@@ -11,6 +11,7 @@ All the integer values in the input expression are in the range [0, 99].
 The integer values in the input expression do not have a leading '-' or '+' denoting the sign.
 
 class Solution:
+
     def diffWaysToCompute(self, expression: str) -> List[int]:
         res = []
         # ans = []
